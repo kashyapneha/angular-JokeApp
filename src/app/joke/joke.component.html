@@ -1,8 +1,9 @@
-<div class="card card-body">
+<div class="card card-body" ccCardHover>
   <h5 class="card-title">{{ joke.setup }}</h5>
-  <p class="card-text" [hidden]="joke.hide">{{ joke.punchline }}</p>
+  <p class="card-text" [style.display]="'none'">{{ joke.punchline }}</p>
+  <!-- <p class="card-text" [hidden]="joke.hide">{{ joke.punchline }}</p>
   <button class="btn btn-block btn-primary" 
     (click)="joke.hide = !joke.hide">Tell Me</button>
   <button class="btn btn-danger" 
-    (click)="deleteItem()">Delete</button>
+    (click)="deleteItem()">Delete</button> -->
 </div>

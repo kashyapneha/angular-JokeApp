@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { JokeComponent } from './joke/joke.component';
 import { JokeListComponent } from './joke/joke-list/joke-list.component';
 import { JokeFormComponent } from './joke/joke-form/joke-form.component';
+import { CardHoverDirective } from './directive.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
@@ -13,7 +14,8 @@ import { JokeFormComponent } from './joke/joke-form/joke-form.component';
     AppComponent, 
     JokeComponent, 
     JokeListComponent,
-    JokeFormComponent
+    JokeFormComponent,
+    CardHoverDirective
     ],
   bootstrap:    [ AppComponent ]
 })
