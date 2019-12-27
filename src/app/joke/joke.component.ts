@@ -1,4 +1,5 @@
 import {Component, Input, EventEmitter, Output } from '@angular/core';
+import { Joke } from './joke-list/joke-list.component';
 
 @Component({
   selector: 'app-joke',
